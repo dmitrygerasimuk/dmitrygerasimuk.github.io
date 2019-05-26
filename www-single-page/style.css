@@ -1,0 +1,266 @@
+/*----------------------------------------- global ----------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	/*font-family: Arial, sans-serif;*/
+	}
+
+/**{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: #ffffff;
+	color: #0000ff;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	text-align: right;
+	}*/
+	
+	/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}*/
+:focus {
+	outline: 0;
+	}
+
+html:lang(ru) {quotes: '� ' ' �'}
+li{
+	list-style-type: none;
+	list-style-position: outside;
+	}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
+	display:block;
+	}
+
+@font-face {
+	font-family: 'pt_root_ui_web_light';
+		src: url('/fonts/pt_root_ui_web_light.eot');
+		src:
+			url('/fonts/pt_root_ui_web_light.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/pt_root_ui_web_light.woff2') format('woff2'),
+			url('/fonts/pt_root_ui_web_light.woff') format('woff'),
+			url('/fonts/pt_root_ui_web_light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'pt_root_ui_web_regular';
+		src: url('/fonts/pt_root_ui_web_regular.eot');
+		src:
+			url('/fonts/pt_root_ui_web_regular.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/pt_root_ui_web_regular.woff2') format('woff2'),
+			url('/fonts/pt_root_ui_web_regular.woff') format('woff'),
+			url('/fonts/pt_root_ui_web_regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'pt_root_ui_web_medium';
+		src: url('/fonts/pt_root_ui_web_medium.eot');
+		src:
+			url('/fonts/pt_root_ui_web_medium.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/pt_root_ui_web_medium.woff2') format('woff2'),
+			url('/fonts/pt_root_ui_web_medium.woff') format('woff'),
+			url('/fonts/pt_root_ui_web_medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'pt_root_ui_web_bold';
+		src: url('/fonts/pt_root_ui_web_bold.eot');
+		src:
+			url('/fonts/pt_root_ui_web_bold.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/pt_root_ui_web_bold.woff2') format('woff2'),
+			url('/fonts/pt_root_ui_web_bold.woff') format('woff'),
+			url('/fonts/pt_root_ui_web_bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+/*----------------------------------------- main ----------------------------------------------*/
+#logo{
+	position: fixed;
+	top: 14px;
+	left: 19px;
+	
+	font-family: 'pt_root_ui_web_bold', courier;
+	font-weight: normal;
+	font-size: 37px;
+	line-height: 37px;
+	letter-spacing: 5px;
+	text-decoration: none;
+	color: #111111;
+	
+	}
+#logo a{
+	
+	/*font-family: 'pt_root_ui_web_bold', courier;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: 5px;
+	text-decoration: none;
+	color: #111111;*/
+	
+	/*padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 4px;
+	padding-bottom: -2px;*/
+	}
+/*#logo a:hover{
+	background: #0000ff;
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+*/
+#mail{
+	position: fixed;
+	bottom: 12px;
+	left: 15px;
+	color: #111111;
+	}
+#mail p{
+	/*position: fixed;
+	bottom: 20px;
+	left: 20px;*/
+	color: #111111;
+	font-family: 'pt_root_ui_web_medium', courier;
+	font-weight: normal;
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+#slogan{
+	position: fixed;
+	top: 60px;
+	left: 20px;
+	color: #ffffff;
+	background: #0000ff;
+	width: 250px;
+	}
+#slogan p{
+	position: fixed;
+	top: 60px;
+	left: 20px;
+	color: #ffffff;
+	background: #0000ff;
+	font-family: 'pt_root_ui_web_medium', courier;
+	font-weight: normal;
+	font-size: 23px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	letter-spacing: 5px;
+	width: 232px;
+	}
+#copyright{
+	position: fixed;
+	bottom: 12px;
+	right: 12px;
+	color: #111111;
+	}
+#copyright p{
+	/*position: fixed;
+	bottom: 12px;
+	right: 12px;*/
+	color: #111111;
+	font-family: 'pt_root_ui_web_medium', courier;
+	font-weight: normal;
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	letter-spacing: 2px;
+	}
+#social{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	color: #111111;
+	/*background-color: red;*/
+	width: 200px;
+	height: 100px;
+	text-align: right;
+	}
+#social img{
+	width: 32px;
+	height: 32px;
+	color: #111111;
+	}
+	
+.icon{
+	width: 26px;
+	height: 26px;
+	fill: #111111;
+	/*background-color: red;*/
+}
+.icon:hover{
+	fill: #ff0040;
+	/*background-color: red;*/
+}	
+	
+	
+#cover{
+	/*letter-spacing: 5px;*/
+	/*margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;*/
+	position: absolute;
+	z-index: -999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #111111;
+	vertical-align: middle;
+	/*background-color: red;*/
+	/*display: block;*/
+	}
+#tits{
+	font-family: 'pt_root_ui_web_bold', courier;
+	font-weight: normal;
+	font-size: 20em;
+	/*background-color: red;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 30%;
+	line-height: 50%;
+	/*margin-left: 30%;
+	margin-top: 10%;*/
+	margin: auto;
+	vertical-align: middle;
+	}
+#tits a{
+	text-decoration: none;
+	color: #111111;
+	}
+#tits a:hover{
+	text-decoration: none;
+	color: #ff0040;
+	background-color: none;
+	}
+#tits a:active{
+	text-decoration: none;
+	color: #0000ff;
+	background-color: none;
+	}
+/*----------------------------------------*/
+.case{
+	/*line-height: 40px;*/
+	vertical-align: 2px;
+	}
